@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.section {
+    height: 100vh; /* 画面の高さいっぱいにする */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#section1 {
+    background-color: #f0f0f0;
+}
+
+#section2 {
+    background-color: #e0e0e0;
+}
+
+#section3 {
+    background-color: #d0d0d0;
+}
+
+#section4 {
+    background-color: #c0c0c0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
