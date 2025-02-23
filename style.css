@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     overflow-x: hidden; /* 横スクロールを禁止 */
     scroll-snap-type: y mandatory;
+    overscroll-behavior-y: contain; /* スクロールチェーンを防止 */
     -webkit-scroll-snap-type: y mandatory; /* Safari用 */
     -ms-scroll-snap-type: y mandatory; /* IE用 */
 }
